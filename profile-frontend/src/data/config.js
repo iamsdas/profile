@@ -4,6 +4,6 @@ module.exports = {
   greeting: "Hey 👋",
   greetingDescription: "I'm Suryashankar Das and I'm a Student Developer!",
   githubUrl: "https://github.com/iamsdas",
-  linkedinUrl: "https://linkedin.com/suryashankardas",
+  linkedinUrl: "https://linkedin.com/in/suryashankardas",
   cvLink: "https://docs.google.com/document/d/1E1234561NMyQA67890ygda7abcdefghijs1jBp7HFI0/",
 };
