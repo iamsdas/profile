@@ -21,12 +21,12 @@ export const Details = styled.div`
 
   h1 {
     margin-bottom: 2rem;
-    font-size: 26pt; // TODO: change the font size to 36
-    color: ${({ theme }) => (theme === "light" ? "#212121" : "#fff")};
+    font-size: 36pt; 
+    color: ${ ({ theme }) => (theme === "light" ? "#212121" : "#fff") };
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) =>
-        theme === "light" ? "unset" : "difference"};
+      mix-blend-mode: ${ ({ theme }) =>
+    theme === "light" ? "unset" : "difference" };
     }
 
     @media (max-width: 680px) {
@@ -38,11 +38,11 @@ export const Details = styled.div`
     margin-bottom: 2.5rem;
     font-size: 32pt;
     font-weight: normal;
-    color: ${({ theme }) => (theme === "light" ? "#707070" : "#e6e6e6")};
+    color: ${ ({ theme }) => (theme === "light" ? "#707070" : "#e6e6e6") };
 
     @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) =>
-        theme === "light" ? "unset" : "difference"};
+      mix-blend-mode: ${ ({ theme }) =>
+    theme === "light" ? "unset" : "difference" };
     }
 
     @media (max-width: 680px) {
@@ -50,15 +50,15 @@ export const Details = styled.div`
     }
   }
   .hire-me {
-    background: ${({ theme }) => (theme === "light" ? "#005554" : "#66BD88")};
+    background: ${ ({ theme }) => (theme === "light" ? "#005554" : "#66BD88") };
     margin-right: 20px;
     border: 3px solid
-      ${({ theme }) => (theme === "light" ? "#005554" : "#66BD88")};
+      ${ ({ theme }) => (theme === "light" ? "#005554" : "#66BD88") };
     font-weight: bold;
   }
   .view-cv {
     background: transparent;
-    color: ${({ theme }) => (theme === "light" ? "#005554" : "#66BD88")};
+    color: ${ ({ theme }) => (theme === "light" ? "#005554" : "#66BD88") };
     border: 3px solid #005554;
     font-weight: bold;
   }
